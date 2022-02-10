@@ -1,0 +1,271 @@
+/* ---- Recoleta-bold from www.onlinewebfonts.com*/
+@import url(//db.onlinewebfonts.com/c/f4d849075c9b4c0047fc56a828879854?family=Recoleta-Bold);
+/* ----Poppins from google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+:root {
+    --body-bg-color: hsla(60, 82%, 98%, 1);
+    --primary: hsla(3, 92%, 64%, 1);
+    --content: hsla(9, 4%, 31%, 1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+/* ----Tah Tah Tah Shots Fired */
+
+body {
+    background-color: var(--b-bg-color);
+    color: var(--content);
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    color: var(--primary);
+}
+
+h1,h2,h3,h4,h5,h6 {
+    color: var(--primary);
+    font-family: "Recoleta-bold" , sans-serif;
+    
+}
+
+button, input, textarea {
+    font-family: inherit;
+    font-size: 100%;
+    line-height: inherit;
+    margin: 0;
+    padding: 0;
+    color: inherit;
+}
+
+img {
+    width: 100%;
+}
+
+/* ----Navbar */
+nav.flex {
+    justify-content: space-between;
+}
+
+.main-logo-a {
+    height: 59px;
+}
+
+.nevigations a {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin: 0 13px;
+}
+
+/* ----Main Showcase */
+/* main-text */
+.container.grid {
+    grid-template-columns: 43% 57%;
+    gap: 0;
+}
+.main-text h1 {
+    font-size: 5rem;
+    font-weight: 900;
+    line-height: 1;
+}
+
+.main-text p {
+    font-size: 1.2rem;
+}
+
+form.flex {
+    justify-content: start;
+    gap: 1rem;
+}
+
+.main-text form input[type=email] {
+    border: 2px solid var(--primary);
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    max-width: 70%;
+}
+
+.submit-btn {
+    padding: 01rem 1.2rem;
+    border-radius: 0.7rem;
+}
+
+/* main-img */
+.main-bg-img {
+    position: relative;
+}
+
+/* ----------------------------------------Featured Articles */
+
+.bg-primary {
+    background-color: var(--primary);
+}
+
+.bg-recent {
+    background-color: hsla(216, 74%, 33%, 1);
+}
+
+.bg-article{
+    background-image: url(/images/pattern.png);
+    background-repeat: no-repeat;
+    background-position: right 20% top 4%;
+}
+
+.bg-primary .container {
+    padding: 1.5rem ;
+}
+
+h1.color-body {
+    font-size: 4rem;
+    padding: 2rem 0;
+}
+
+/* Featured Articles Cards */
+.card {
+    background-color: var(--body-bg-color);
+    max-width: 410px;
+    transition: all 0.3s ease-in-out;
+}
+
+.card:hover {
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transform: scale(1.03);
+}
+
+.card-header img {
+    display: block;
+}
+
+.card-body {
+    padding: 1.2rem;
+}
+
+.card-more-area.note.flex {
+    justify-content: space-between;
+}
+
+.featured-articles.flex {
+    gap: 1.5rem;
+}
+
+/* Featured Articles all view */
+.viewAllArticles {
+    color: var(--body-bg-color);
+    font-size: 1.3rem;
+    padding-right: 0;
+    margin-right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    gap: 1rem;
+}
+
+.viewAllArticles span:hover {
+    text-decoration: underline;
+}
+
+/* ----------------------------------------Recent Articles */
+
+.grid.featured-articles {
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 2;
+}
+
+/* Mailbox */
+
+.body-bg-color1 {
+    background-color: var(--body-bg-color);
+}
+
+.mail-content-wrapper {
+    background: #C9ECE4;
+    border-radius: 1.5rem;
+    margin: 2rem 0 5rem 0;
+}
+
+.mail-content-wrapper .flex:nth-child(1) {
+    gap: 3.5rem;
+}
+
+.mail-content-wrapper img {
+    width: 250px;
+}
+
+/* mail content */
+
+.mail-content {
+    width: 40%;
+}
+.mail-heading {
+    color: #164993;
+    font-size: 3rem;
+}
+
+.mail-content form input[type=email] {
+    border: 2px solid var(--primary);
+    border-radius: 0.5rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    max-width: 70%;
+}
+
+.mail-content a {
+    color: 	hsla(24, 5%, 64%, 1);
+}
+
+/* footer */
+/* part1 */
+.part-1 {
+    border-style: none;
+    border-top: 1px solid hsla(24, 5%, 64%, 1);
+    padding: 0.5rem 0 1.5rem 0;
+}
+
+.part-1 a {
+    color: hsla(216, 74%, 33%, 1);
+    font-weight: 400;
+}
+
+.part-1 a:hover{
+   color: hsla(12, 6%, 15%, 1);
+
+}
+/* part2 */
+
+.part-2 {
+    background-color: hsla(216, 74%, 33%, 1);
+    color: 	hsla(20, 6%, 90%, 1);
+}
+
+.footer-nevigation-icons a {
+    color: #fff;
+    padding: 0 0.5rem;
+    font-size: 24px;
+}
+
+/* Flex */
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+
+/* Grid */
+.grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
