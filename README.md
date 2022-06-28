@@ -1,2 +1,2 @@
 # frontend.horse-clone
-https://aka-eloquence.github.io/frontend.horse-clone/
+https://eloquence98.github.io/frontend.horse-clone/
